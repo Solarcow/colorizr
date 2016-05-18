@@ -1,0 +1,12 @@
+How does your gem take advantage of Ruby’s metaprogramming capabilities?
+I used :define_method to create the coloring methods for the strings
+
+How long did you spend working on this project?
+About 4 hours. I watched the initial videos and did the read through of the content and then didn't start the project for 2+ weeks. I wasn't really interested in creating a gem and the metaprogramming didn't seem interesting to me either. I was also confused at the real world applications (outside of gems) for metaprogramming.
+
+What was the most rewarding challenge you conquered?
+Figuring out how to change the colors by using the "\e[#{color_code}m#{self}\e[0m" line. Putting in self there stumped me for a bit and once I figured that out, it helped a lot. Also figuring out how to brighten the colors to do white and light_grey was nice too.
+
+
+Where do you still have room to grow?
+I think I can continue to be better with metaprogramming and continue to learn that. I'm still a bit confused on real life applications of this outside of gems. 
